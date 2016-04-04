@@ -1,0 +1,107 @@
+body { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* navbar*/
+#content
+{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #fff;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+}
+
+#nav
+{
+	width: 100%;
+	float: left;
+	
+	padding: 0;
+	list-style: none;
+	background-color: #fff;
+	border-bottom: 1px solid #E7A83E; 
+	border-top: 1px solid #E7A83E;
+color: #EA525F;
+}
+
+#nav li {
+      float: left; }
+   #nav li a {
+      display: block;
+      padding: 2px 15px;
+      text-decoration: none;
+      
+      font-family: Arial;
+      font-size: 20px;
+      border-right: 1px solid #E0DF9F;}
+   #nav li a:hover {
+      background-color: #fff; }
+.inner{
+	margin-left:auto;
+  margin-right:auto;
+  display: table;
+}
+   
+   /* This is just styling for this specific page. color: #5b8181;
+font-weight: bold;
+text-decoration: none; color: #b64a4d;*/
+   body {
+      background-color: white; 
+      font: small/1.3 Arial, Helvetica, sans-serif; 
+      color: #9A736E;
+  }
+  
+   h1 {
+      
+      color: #E7A83E;
+      text-align: center;
+      margin: 0;
+  font-family: "Brain Flower",Arial;
+font-size: 60px;}
+
+   #content {
+      padding: 0 50px 50px; }
+
+      a {
+color: #B2CBA3;
+    -moz-transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+}
+
+a:hover {
+color: #EA525F;
+    -moz-transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+}
+#submit {
+
+    background-color: #9A736E;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding:5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Arial';
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+
+
+#submit:hover {
+   
+    background:#B2CBA3;
+    
+}
